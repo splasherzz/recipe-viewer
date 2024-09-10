@@ -1,0 +1,257 @@
+{
+    "recipes": [
+      {
+        "recipe_name": "Spaghetti Carbonara",
+        "ingredients": [
+          "200g spaghetti",
+          "100g pancetta",
+          "2 large eggs",
+          "50g pecorino cheese",
+          "50g parmesan cheese",
+          "Black pepper",
+          "Salt",
+          "2 garlic cloves"
+        ],
+        "cooking_instructions": "Boil spaghetti in salted water. Fry pancetta with garlic until crisp. Beat eggs with cheeses and pepper. Drain pasta, mix with pancetta. Stir in egg mixture off heat. Serve."
+      },
+      {
+        "recipe_name": "Chicken Alfredo",
+        "ingredients": [
+          "2 boneless chicken breasts",
+          "200g fettuccine",
+          "1 cup heavy cream",
+          "50g parmesan cheese",
+          "2 garlic cloves",
+          "Salt",
+          "Pepper",
+          "Olive oil"
+        ],
+        "cooking_instructions": "Cook fettuccine in salted water. Sauté garlic in oil, add chicken, season with salt and pepper, and cook through. Stir in cream and cheese. Toss with pasta."
+      },
+      {
+        "recipe_name": "Beef Stir-Fry",
+        "ingredients": [
+          "300g beef strips",
+          "1 bell pepper",
+          "1 onion",
+          "2 tbsp soy sauce",
+          "1 tbsp oyster sauce",
+          "2 garlic cloves",
+          "1 tbsp sesame oil"
+        ],
+        "cooking_instructions": "Heat oil in a pan. Stir-fry beef until browned. Add garlic, onion, and bell pepper. Stir in soy and oyster sauce. Serve over rice."
+      },
+      {
+        "recipe_name": "Vegetable Curry",
+        "ingredients": [
+          "1 potato",
+          "1 carrot",
+          "100g cauliflower",
+          "1 onion",
+          "2 tbsp curry powder",
+          "1 can coconut milk",
+          "Salt",
+          "Olive oil"
+        ],
+        "cooking_instructions": "Sauté onion in oil. Add chopped vegetables, curry powder, and salt. Pour in coconut milk and simmer until vegetables are tender. Serve with rice."
+      },
+      {
+        "recipe_name": "Tacos",
+        "ingredients": [
+          "200g ground beef",
+          "1 packet taco seasoning",
+          "8 taco shells",
+          "1 tomato",
+          "Lettuce",
+          "Cheese",
+          "Sour cream"
+        ],
+        "cooking_instructions": "Cook beef with taco seasoning. Fill taco shells with beef, chopped tomato, lettuce, cheese, and sour cream."
+      },
+      {
+        "recipe_name": "Margarita Pizza",
+        "ingredients": [
+          "Pizza dough",
+          "100g mozzarella cheese",
+          "Tomato sauce",
+          "Fresh basil",
+          "Olive oil",
+          "Salt"
+        ],
+        "cooking_instructions": "Preheat oven to 250°C. Roll out dough, spread tomato sauce, add mozzarella, and bake for 10 minutes. Top with fresh basil and olive oil."
+      },
+      {
+        "recipe_name": "Chicken Caesar Salad",
+        "ingredients": [
+          "2 chicken breasts",
+          "Romaine lettuce",
+          "Caesar dressing",
+          "Croutons",
+          "Parmesan cheese",
+          "Salt",
+          "Pepper"
+        ],
+        "cooking_instructions": "Grill chicken with salt and pepper. Toss lettuce with dressing, croutons, and parmesan. Top with sliced chicken."
+      },
+      {
+        "recipe_name": "Pancakes",
+        "ingredients": [
+          "1 cup flour",
+          "1 tbsp sugar",
+          "1 tsp baking powder",
+          "1 egg",
+          "1 cup milk",
+          "Butter"
+        ],
+        "cooking_instructions": "Mix flour, sugar, and baking powder. Beat in egg and milk. Heat butter in a pan, pour batter, cook until bubbles form, flip and cook through."
+      },
+      {
+        "recipe_name": "Chicken Biryani",
+        "ingredients": [
+          "2 chicken thighs",
+          "1 cup basmati rice",
+          "1 onion",
+          "1 tbsp biryani spice mix",
+          "1 cinnamon stick",
+          "1 bay leaf",
+          "Salt",
+          "Yogurt"
+        ],
+        "cooking_instructions": "Fry onion with spices, add chicken and yogurt, and simmer. Cook rice separately. Layer chicken and rice, cover, and cook on low heat for 20 minutes."
+      },
+      {
+        "recipe_name": "Chili con Carne",
+        "ingredients": [
+          "200g ground beef",
+          "1 can kidney beans",
+          "1 onion",
+          "2 garlic cloves",
+          "1 can chopped tomatoes",
+          "1 tbsp chili powder",
+          "Salt",
+          "Olive oil"
+        ],
+        "cooking_instructions": "Sauté onion and garlic, add beef and brown. Stir in tomatoes, chili powder, and beans. Simmer for 30 minutes, serve with rice."
+      },
+      {
+        "recipe_name": "French Toast",
+        "ingredients": [
+          "2 slices bread",
+          "1 egg",
+          "1/4 cup milk",
+          "1 tsp cinnamon",
+          "Butter",
+          "Maple syrup"
+        ],
+        "cooking_instructions": "Beat egg, milk, and cinnamon. Dip bread in mixture. Fry in butter until golden on both sides. Serve with maple syrup."
+      },
+      {
+        "recipe_name": "Lasagna",
+        "ingredients": [
+          "200g ground beef",
+          "Lasagna noodles",
+          "1 cup ricotta cheese",
+          "1 cup mozzarella cheese",
+          "1 jar marinara sauce",
+          "Salt",
+          "Pepper"
+        ],
+        "cooking_instructions": "Cook beef with salt and pepper. Layer noodles, ricotta, beef, sauce, and mozzarella in a baking dish. Bake at 180°C for 45 minutes."
+      },
+      {
+        "recipe_name": "Tomato Soup",
+        "ingredients": [
+          "4 tomatoes",
+          "1 onion",
+          "2 garlic cloves",
+          "1 cup vegetable broth",
+          "Salt",
+          "Pepper",
+          "Olive oil"
+        ],
+        "cooking_instructions": "Sauté onion and garlic, add tomatoes and broth. Simmer for 20 minutes. Blend until smooth, season with salt and pepper."
+      },
+      {
+        "recipe_name": "Grilled Cheese Sandwich",
+        "ingredients": [
+          "2 slices bread",
+          "2 slices cheddar cheese",
+          "Butter"
+        ],
+        "cooking_instructions": "Butter one side of each bread slice. Place cheese between slices, butter side out. Grill in a pan until golden brown and cheese melts."
+      },
+      {
+        "recipe_name": "Beef Tacos",
+        "ingredients": [
+          "200g ground beef",
+          "1 packet taco seasoning",
+          "8 taco shells",
+          "1 tomato",
+          "Lettuce",
+          "Cheese",
+          "Sour cream"
+        ],
+        "cooking_instructions": "Cook beef with taco seasoning. Fill taco shells with beef, tomato, lettuce, cheese, and sour cream."
+      },
+      {
+        "recipe_name": "Shrimp Scampi",
+        "ingredients": [
+          "200g shrimp",
+          "3 garlic cloves",
+          "1/2 cup white wine",
+          "50g butter",
+          "Lemon juice",
+          "Parsley"
+        ],
+        "cooking_instructions": "Sauté garlic in butter, add shrimp, and cook until pink. Pour in white wine and lemon juice, cook for 5 minutes. Garnish with parsley."
+      },
+      {
+        "recipe_name": "Fish Tacos",
+        "ingredients": [
+          "200g white fish",
+          "8 taco shells",
+          "1 lime",
+          "Cabbage slaw",
+          "Cilantro",
+          "Sour cream"
+        ],
+        "cooking_instructions": "Grill fish with lime juice. Fill taco shells with fish, cabbage slaw, cilantro, and sour cream."
+      },
+      {
+        "recipe_name": "Lemon Chicken",
+        "ingredients": [
+          "2 chicken breasts",
+          "1 lemon",
+          "1 tbsp olive oil",
+          "2 garlic cloves",
+          "Salt",
+          "Pepper"
+        ],
+        "cooking_instructions": "Marinate chicken with lemon juice, garlic, salt, and pepper. Sauté in olive oil until cooked through. Serve with vegetables."
+      },
+      {
+        "recipe_name": "Egg Fried Rice",
+        "ingredients": [
+          "2 cups cooked rice",
+          "2 eggs",
+          "1 onion",
+          "2 tbsp soy sauce",
+          "2 garlic cloves",
+          "1 carrot",
+          "Peas"
+        ],
+        "cooking_instructions": "Sauté onion, garlic, and carrot. Add rice, soy sauce, and peas. Push rice to the side, scramble eggs, and mix everything together."
+      },
+      {
+        "recipe_name": "BBQ Chicken Wings",
+        "ingredients": [
+          "10 chicken wings",
+          "1/2 cup BBQ sauce",
+          "Salt",
+          "Pepper"
+        ],
+        "cooking_instructions": "Season wings with salt and pepper. Bake at 200°C for 25 minutes. Toss with BBQ sauce and bake for another 10 minutes."
+      }
+    ]
+  }
+  
