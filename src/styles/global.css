@@ -11,3 +11,42 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+@font-face {
+  font-family: 'Sloop';
+  src: url(/fonts/Sloop-ScriptThree.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Reg';
+  src: url(/fonts/Inter_24pt-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-SB';
+  src: url(/fonts/Inter_24pt-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-It';
+  src: url(/fonts/Inter_24pt-Italic.ttf) format('truetype');
+}
+
+.dish-name {
+  font-family: 'Sloop', sans-serif;
+}
+
+.details {
+  font-family: 'Inter-It', sans-serif;
+  color: #3b2f3b;
+}
+
+.instruc {
+  font-family: 'Inter-SB', sans-serif;
+  color: #3b2f3b;
+}
+
+.bg {
+  background: rgb(251, 235, 211);
+  background: linear-gradient(197deg, rgba(251, 235, 211, 1) 0%, rgba(243, 197, 173, 1) 100%);
+}
