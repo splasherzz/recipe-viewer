@@ -6,9 +6,12 @@ export default function Home() {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    fetch('/api/recipe')
-      .then(response => response.json())
-      .then(data => setRecipes(data.message.recipes));
+    async function fetchData() {
+      const response = await fetch('/api/recipe');
+      const data = await response.json();
+      setRecipes(data.message.recipes);
+    }
+    fetchData();
   }, []);
 
   return (
