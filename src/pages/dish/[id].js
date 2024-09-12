@@ -2,7 +2,6 @@ import Link from 'next/link';
 
 // component
 export default function Dish(props) {
-    console.log(props)
     return (
         <div className="flex items-center justify-center bg h-screen">
             <div className="relative flex flex-col items-center bg-[#fffaf6] rounded-lg w-3/4 p-10 shadow-md border-dotted border-2 border-[#3b2f3b]">
@@ -11,9 +10,7 @@ export default function Dish(props) {
                     {props.name}
                 </div>
                 <div className="details items-center text-center mb-6">
-                    {props.ingredients.map(ingr => (
-                        <div>{ingr}</div>
-                    ))}
+                    {props.ingredients.map(ingr => (<div>{ingr}</div>))}
                 </div>
                 <div className="instruc py-2 px-4 w-1/2 border-double border-4 border-[#f3aa6e] rounded-2xl text-justify">
                     {props.instructions}
@@ -37,14 +34,13 @@ export async function getStaticPaths() {
 export async function getStaticProps(props) {
     const res = await fetch('http://localhost:3000/api/recipe')
     const data = await res.json()
-    console.log("props", props)
-    console.log("data", data.message)
+    const recipe = data.message.recipes.find((recipe) => recipe.recipe_name === props.params.id)
 
     return {
         props: {
             name: props.params.id,
-            ingredients: data.message.recipes.find((recipe) => recipe.recipe_name === props.params.id).ingredients,
-            instructions: data.message.recipes.find((recipe) => recipe.recipe_name === props.params.id).cooking_instructions
+            ingredients: recipe.ingredients,
+            instructions: recipe.cooking_instructions
         }
     }
 }
