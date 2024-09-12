@@ -10,6 +10,10 @@
 img {
   max-width: 100%;
   height: auto;
+} 
+
+hr {
+  @apply w-full border-dotted border-2 border-[#a49d9c] mb-6
 }
 
 @font-face {
@@ -36,17 +40,58 @@ img {
   font-family: 'Sloop', sans-serif;
 }
 
+.dish-name-home {
+  @apply mb-6 text-7xl tracking-wider text-[#ee653d] text-shadow shadow-gray-300 border-double border-4 border-[#f3aa6e] pt-4 px-6
+}
+
+.dish-name-page {
+  @apply mb-4 text-7xl tracking-wider text-[#ee653d] text-shadow shadow-gray-300
+}
+
 .details {
   font-family: 'Inter-It', sans-serif;
   color: #3b2f3b;
 }
 
+.details-page {
+  @apply items-center text-center mb-6
+}
+
 .instruc {
   font-family: 'Inter-SB', sans-serif;
   color: #3b2f3b;
+  @apply py-2 px-4 w-1/2 border-double border-4 border-[#f3aa6e] rounded-2xl text-justify
 }
 
 .bg {
   background: rgb(251, 235, 211);
   background: linear-gradient(197deg, rgba(251, 235, 211, 1) 0%, rgba(243, 197, 173, 1) 100%);
+}
+
+.dish-container {
+  @apply flex items-center justify-center h-screen
+}
+
+.dish-card {
+  @apply relative flex flex-col items-center bg-[#fffaf6] rounded-lg w-3/4 p-10 shadow-md border-dotted border-2 border-[#3b2f3b]
+}
+
+.home-link {
+  @apply absolute top-2 right-3 bg-[#fffaf6] text-[#ee653d] text-xl font-bold py-2 px-2 rounded-full
+}
+
+.menu-container {
+  @apply flex items-center justify-center bg h-screen
+}
+
+.menu-card {
+  @apply flex flex-col items-center border-double border-4 border-[#3b2f3b] text-center bg-[#fffaf6] p-8 rounded-2xl shadow-lg
+}
+
+.dish-list {
+  @apply columns-2 -mb-4 px-2
+}
+
+.dish-entry {
+  @apply mb-3 hover:underline hover:text-[#c3563c]
 }

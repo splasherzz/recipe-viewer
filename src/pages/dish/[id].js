@@ -4,18 +4,18 @@ import Link from 'next/link';
 export default function Dish(props) {
     console.log(props)
     return (
-        <div className="flex items-center justify-center bg h-screen">
-            <div className="relative flex flex-col items-center bg-[#fffaf6] rounded-lg w-3/4 p-10 shadow-md border-dotted border-2 border-[#3b2f3b]">
-                <Link href="/" className="absolute top-2 right-3 bg-[#fffaf6] text-[#ee653d] text-xl font-bold py-2 px-2 rounded-full">X</Link>
-                <div className="dish-name mb-4 text-7xl tracking-wider text-[#ee653d] text-shadow shadow-gray-300">
+        <div className="bg dish-container">
+            <div className="dish-card">
+                <Link href="/" className="home-link">X</Link>
+                <div className="dish-name dish-name-page">
                     {props.name}
                 </div>
-                <div className="details items-center text-center mb-6">
+                <div className="details details-page">
                     {props.ingredients.map(ingr => (
                         <div>{ingr}</div>
                     ))}
                 </div>
-                <div className="instruc py-2 px-4 w-1/2 border-double border-4 border-[#f3aa6e] rounded-2xl text-justify">
+                <div className="instruc">
                     {props.instructions}
                 </div>
             </div>
