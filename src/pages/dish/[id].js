@@ -21,7 +21,7 @@ export default function Dish(props) {
 }
 
 export async function getStaticPaths() {
-    const res = await fetch('http://localhost:3000/api/recipe')
+    const res = await fetch('/api/recipe')
     const data = await res.json()
     return {
         paths: data.message.recipes.map((recipe) => ({
@@ -32,7 +32,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(props) {
-    const res = await fetch('http://localhost:3000/api/recipe')
+    const res = await fetch('/api/recipe')
     const data = await res.json()
     const recipe = data.message.recipes.find((recipe) => recipe.recipe_name === props.params.id)
 
